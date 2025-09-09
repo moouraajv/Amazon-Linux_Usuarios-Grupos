@@ -3,7 +3,7 @@
 Descubra como criar usuários e senhas, como acessar esses usuários e a criação de grupos.
 
 
-<img style="width:80%" src="Arquivos/Amazonlinux.png" alt="Logo">
+<img style="width:85%" src="Arquivos/Amazonlinux.png" alt="Logo">
 
 
 - Autor: [moouraajv](https://github.com/moouraajv)
@@ -27,13 +27,13 @@ Descubra como criar usuários e senhas, como acessar esses usuários e a criaç�
 #### 1.3 - Para adicionar uma senha ao usuário use o comando ```sudo passwd arosalez``` e em seguida presione Enter.
 
 
-<img style="width:76%" src="Arquivos/Screenshot_1.png" alt="Screenshot">
+<img style="width:80%" src="Arquivos/Screenshot_1.png" alt="Screenshot">
 
 
 #### 1.4 - Para validar que todos os usuários foram adicionados use o comando ```sudo cat /etc/passwd | cut -d: -f1```.
 
 
-<img style="width:76%" src="Arquivos/Screenshot_2.png" alt="Screenshot">
+<img style="width:80%" src="Arquivos/Screenshot_2.png" alt="Screenshot">
 
 
 ## 📝 Passo 2: Criar grupos
@@ -47,7 +47,7 @@ Descubra como criar usuários e senhas, como acessar esses usuários e a criaç�
 #### 2.3 - Para validar que o grupo foi criado use o comando ```cat /etc/group```.
 
 
-<img style="width76%" src="Arquivos/Screenshot_3.png" alt="Screenshot">
+<img style="width:80%" src="Arquivos/Screenshot_3.png" alt="Screenshot">
 
 
 ## 📝 Passo 3: Adicionar usuários aos grupos
@@ -55,8 +55,8 @@ Descubra como criar usuários e senhas, como acessar esses usuários e a criaç�
 #### 3.2 - Para verificar se o usuário foi adicionado use o comando ```cat /etc/group```.
 
 
-<img style="width:76%" src="Arquivos/Screenshot_4.png" alt="Screenshot">
-<img style="width:76%" src="Arquivos/Screenshot_5.png" alt="Screenshot">
+<img style="width:80%" src="Arquivos/Screenshot_4.png" alt="Screenshot">
+<img style="width:80%" src="Arquivos/Screenshot_5.png" alt="Screenshot">
 
 
 ## 📝 Passo 4: Fazendo login nos novos usuários
@@ -86,7 +86,7 @@ Descubra como criar usuários e senhas, como acessar esses usuários e a criaç�
 #### 4.5 - Agora use o comando ```exit``` para voltar ao usuário anterior ec2-user.
 
 
-<img style="width:76%" src="Arquivos/Screenshot_6.png" alt="Screenshot">
+<img style="width:80%" src="Arquivos/Screenshot_6.png" alt="Screenshot">
 
 
 #### 4.6 - Use o comando ```sudo cat /var/log/secure``` para visualizar a log que vai exibir o conteúdo do arquivo seguro. use a seta para abaixo até achar a log.
@@ -96,8 +96,8 @@ Descubra como criar usuários e senhas, como acessar esses usuários e a criaç�
 #### 4.6.1 - Alguns detalhes da log podem aparecer difirentes.
 
 
-<img style="width:76%" src="Arquivos/Screenshot_7.png" alt="Screenshot">
-<img style="width:76%" src="Arquivos/Screenshot_8.png" alt="Screenshot">
+<img style="width:80%" src="Arquivos/Screenshot_7.png" alt="Screenshot">
+<img style="width:80%" src="Arquivos/Screenshot_8.png" alt="Screenshot">
 
 
 ## ✅ Conclusão
